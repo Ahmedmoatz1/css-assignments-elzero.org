@@ -1,0 +1,35 @@
+div{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin: 100px auto;
+    background-color: #eee;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+body div::before{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 10px solid blue;
+    border-right-color: transparent;
+
+    
+}
+body div::after{
+    content: "";
+    position: absolute;
+    width: calc(100% + 10px);
+    height: calc(100% + 10px);
+    border-radius: 50%;
+    border: 20px solid red;
+    border-left-color: transparent;
+    
+}

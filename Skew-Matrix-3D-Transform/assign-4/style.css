@@ -1,0 +1,27 @@
+.n{
+    width: 200px;
+    height: 200px;
+    margin: 100px auto;
+    background-color: #607d8b;
+    border-bottom: 10px black solid;
+    position: relative;
+
+
+
+}
+.n::after{
+    content: " ";
+    position:absolute;
+    width: 140px;
+    height: 140px;
+    background-color: #2c46a4;
+    top: -70px;
+    left: 28px;
+    border-bottom: 10px white solid;
+    border-right: 10px white solid;
+   
+    transform: rotate(
+        47deg
+    );
+    
+}

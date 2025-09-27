@@ -1,0 +1,20 @@
+.element{
+    width:  400px;
+    padding: 10px;
+    background-color: aliceblue;
+    margin: 30px auto;
+    
+    
+}
+.element-1{
+    border-left: brown 10px solid ;
+    outline: 10px aliceblue solid;
+}
+.element-2{
+    border-left: blue 10px solid ;
+    outline: 10px aliceblue solid;
+}
+.element-3{
+    border-left: olivedrab 10px solid ;
+    outline: 10px aliceblue solid;
+}

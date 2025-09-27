@@ -1,0 +1,13 @@
+div{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin: 100px auto;
+    background-color: #eee;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: -5px 0 0 0 blue , 5px 0 0 0 red;
+
+
+}

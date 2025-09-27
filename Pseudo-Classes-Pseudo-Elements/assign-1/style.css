@@ -1,0 +1,10 @@
+div{
+     display: inline-block;
+    border-radius: 50% 10px   ; 
+    border: 10px blue solid;
+    background-color: #d95656;
+    margin: 30px 30px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+}

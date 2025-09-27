@@ -1,0 +1,27 @@
+div{
+    margin: 10px auto  ;
+    width: 500px;
+    background-color: blueviolet;
+    padding: 20px ;
+    
+    
+    
+
+}
+
+.assign-1-shape-1{
+    background-color: blueviolet;
+    border: red 10px solid;
+}
+.assign-1-shape-2{
+    background-color: blueviolet;
+    border-top: blue  solid 10px;
+    border-bottom: blue  solid 10px;
+    border-right: green  solid 10px;
+    border-left: green  solid 10px ;
+}
+.assign-1-shape-3{
+    background-color: blueviolet;
+    border: red 10px  dashed  ;
+   
+}

@@ -1,0 +1,33 @@
+div{
+    
+    display: flex;
+    width: 600px;
+    height: 100px;
+    margin: 100px auto;
+    background-color: #eee;
+    justify-content: center;
+    align-items: center;
+    
+    box-shadow: -5px 0 0 0 rgb(15, 155, 146) , 5px 0 0 0 red;
+
+
+}
+
+.er::first-letter {
+  color: blanchedalmond;
+  font-size: 2em; 
+  font-weight: bold;
+}
+.er::before{
+    content: "";
+    position: absolute;
+    width: 600px;
+    height: 10px;
+    background-image: linear-gradient(
+  to right,
+  red 20%, 
+  blue 20%, blue 40%, 
+  green 40%, green 60%, 
+  red 60%
+);
+}

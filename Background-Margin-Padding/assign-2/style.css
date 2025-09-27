@@ -1,0 +1,6 @@
+div{
+    width:  400px;
+    height: 500px;
+    background-image: url(/Background-Margin-Padding/assign-3/download.png);
+    background-attachment:fixed;
+}

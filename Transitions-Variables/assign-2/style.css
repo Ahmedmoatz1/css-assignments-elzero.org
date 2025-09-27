@@ -1,0 +1,16 @@
+div:hover{
+    transition: 1s;
+    background-color: #ccc !important;
+    color: rgb(1, 11, 62) !important;
+    margin: 30px auto;
+   
+    position: relative;
+    margin: 10px auto;
+
+}
+div::after{
+    content: "elzro" ;
+    position: absolute;
+    text-indent: 0;
+    left:10px;
+}

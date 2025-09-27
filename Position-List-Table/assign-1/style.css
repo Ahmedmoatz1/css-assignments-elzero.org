@@ -1,0 +1,37 @@
+.green{
+    position: absolute;
+    margin: 10px auto  ;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    padding: 20px ;
+    left: 1px;
+    z-index: 2;
+}
+.red{
+    position: absolute;
+    margin: 10px auto  ;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    padding: 20px ;
+    z-index: 1;
+    left: 10px;
+}
+.blue{
+    position: absolute;
+    
+    margin: 10px auto  ;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    padding: 20px ;
+}
+.black{
+   position: absolute;
+    margin: 10px auto  ;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    padding: 20px ;
+}

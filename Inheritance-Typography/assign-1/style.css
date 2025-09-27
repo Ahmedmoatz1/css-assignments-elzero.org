@@ -1,0 +1,9 @@
+div{
+    margin: 10px auto  ;
+    width: 500px;
+    background-color: blueviolet;
+    padding: 20px ;
+}
+div ,p {
+    border: 10px solid ;
+}

@@ -1,0 +1,13 @@
+
+.title{
+    color: red;
+}
+.child .title{
+    color: blue;
+}
+p{
+    color: #1abb2a;
+}
+.parent + .title{
+    color: #2712ae;
+}

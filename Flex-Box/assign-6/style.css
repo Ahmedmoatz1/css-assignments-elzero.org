@@ -1,0 +1,50 @@
+.page{
+    background-color: #eee;
+    display: flex;
+    width: 600px;
+    /* height: 300px; */
+    margin: 30px auto;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+}
+.page div{
+    background-color: #cccc;
+    width: 80%;
+    margin: 10px auto;
+
+}
+.page .header{
+    display: flex;
+    justify-content: space-between;
+
+}
+.page div .links , li{
+
+    
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    width: 70%;
+}
+.page div .logo{
+    
+    width: 20%;
+    margin: 10px 10px;
+}
+.main-area{
+    display: flex;
+    height: 100px;
+    
+}
+.main-area div{
+    margin: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+

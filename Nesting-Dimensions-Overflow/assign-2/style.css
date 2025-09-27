@@ -1,0 +1,10 @@
+.element{
+    max-width: 400px;
+    max-height: 40px;
+    padding: 10px;
+    background-color: brown;
+    margin: 30px auto;
+    overflow: hidden;
+
+    
+}

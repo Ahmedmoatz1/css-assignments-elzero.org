@@ -1,0 +1,19 @@
+.parent{
+    margin: 50px auto;
+    width: 500px;
+    height: 400px;
+    background-color: #eee;
+
+}
+.two{
+    background-color: #ccc;
+    margin: 10px;
+}
+.parent:hover{
+    transition: .5s;
+    margin-top: 100px;
+}
+.two:hover{
+    transition: .5s;
+    margin-top: 100px;
+}
